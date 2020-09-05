@@ -2,6 +2,9 @@
 <html>
 
 <head>
+
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
+
 <style>
 
 	ul {
@@ -31,41 +34,145 @@
 	li a:hover {
 	  background-color: #111;
 	}
-		
+
+	div {
+		font-family: 'Ubuntu';
+		margin: auto;
+	}
+
+	.profile-img {
+		border-radius: 50%;
+		float:right;
+		padding:15px;
+	}
+
+	.illustrate-img {
+		border-radius:5%;
+		padding:10px;
+	}
+
+	#about {
+		background-color: #0d4194;
+		color:#a7c7fa;
+		display:flex;
+		align-items:center;
+	}
+
+
+	/* Column container */
+	.row {  
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+
+	/* Main column */
+	#p-projects {
+	  flex: 70%;
+	  background-color:#a7c7fa ;
+	  color:#0d4194;
+	  padding: 20px;
+	}
+
+	#u-projects {
+	  flex: 70%;
+	  background-color:#0d4194 ;
+	  color:#a7c7fa;
+	  padding: 20px;
+	}
+
+	  /* Footer */
+	.footer {
+	  padding: 20px;
+	  text-align: center;
+	  background-color: #a7c7fa;
+	  color:#0d4194;
+	}
+
+
 </style>
 </head>
 
 <body>
 
 	<ul class="navbar" id="navbar">
-	  <li class="nav-li"><a class="nav-a" href="#about">About</a></li>
-	  <li class="nav-li"><a class="nav-a" href="#projects">Projects</a></li>
+	  <li class="nav-li"><a class="nav-a" href="#about">About Me</a></li>
+	  <li class="nav-li"><a class="nav-a" href="#p-projects">Personal Projects</a></li>
+	  <li class="nav-li"><a class="nav-a" href="#u-projects">University Projects</a></li>
 	  <li class="nav-li"><a class="nav-a" href="#contact">Contact</a></li>
 	  
 	</ul> 
 
 	<br> <br>
 
-	<h2> Portfolio Page </h2>
+	<div id="about"> 
 
-	<h4 id="about"> Hello I am Sebastian Keil. These are my projects, please have a look. </h4><br><br>
+		<div class="image-col"> 
+			<img src="https://user-images.githubusercontent.com/62847324/92095854-7fbb7f80-edd6-11ea-91aa-f2713ba817e7.png" alt="Profil Pic" width=150px, height=200px class="profile-img"> 
+		</div>
 
 
-		<p> he concept of Germany as a distinct region in central Europe can be traced to Roman commander Julius Caesar, who referred to the unconquered area east of the Rhine as Germania, thus distinguishing it from Gaul (France), which he had conquered. The victory of the Germanic tribes in the Battle of the Teutoburg Forest (AD 9) prevented annexation by the Roman Empire, although the Roman provinces of Germania Superior and Germania Inferior were established along the Rhine. Following the Fall of the Western Roman Empire, the Franks conquered the other West Germanic tribes. When the Frankish Empire was divided among Charles the Great's heirs in 843, the eastern part became East Francia. In 962, Otto I became the first Holy Roman Emperor of the Holy Roman Empire, the medieval German state.
+		<div class="text-col">
+			<h2>About Me</h2>
+			<p> My name is Sebastian Keil. I am a student of Artificial Intelligence and FinTech, with a particular interest in the intersection of AI and psychology. I am moved by both fundamental (even metaphysical) questions, as well as more detailed issues of direct practical use. These are my projects, please have a look. </p>
+		</div>
 
-		In the Late Middle Ages, the regional dukes, princes, and bishops gained power at the expense of the emperors. Martin Luther led the Protestant Reformation within the Catholic Church after 1517, as the northern states became Protestant, while the southern states remained Catholic. The two parts of the Holy Roman Empire clashed in the Thirty Years' War (1618–1648), which was ruinous to the twenty million civilians living in both parts. The Thirty Years' War brought tremendous destruction to Germany; more than 1/4 of the population and 1/2 of the male population in the German states were killed by the catastrophic war. 1648 marked the effective end of the Holy Roman Empire and the beginning of the modern nation-state system, with Germany divided into numerous independent states, such as Prussia, Bavaria, Saxony, Austria and other states, which also controlled land outside of the area considered "Germany". After the French Revolution and the Napoleonic Wars from 1803–1815, feudalism fell away and liberalism and nationalism clashed with reaction. The German revolutions of 1848–49 failed. The Industrial Revolution modernized the German economy, led to the rapid growth of cities and the emergence of the socialist movement in Germany. Prussia, with its capital Berlin, grew in power. German universities became world-class centers for science and humanities, while music and art flourished. The unification of Germany (excluding Austria and the German-speaking areas of Switzerland) was achieved under the leadership of the Chancellor Otto von Bismarck with the formation of the German Empire in 1871. This resulted in the Kleindeutsche Lösung, ("small Germany solution", Germany without Austria), rather than the Großdeutsche Lösung, ("greater Germany solution", Germany with Austria). The new Reichstag, an elected parliament, had only a limited role in the imperial government. Germany joined the other powers in colonial expansion in Africa and the Pacific.
+	</div>
 
-		By 1900, Germany was the dominant power on the European continent and its rapidly expanding industry had surpassed Britain's while provoking it in a naval arms race. Germany led the Central Powers in World War I (1914–1918) against France, Great Britain, Russia and (by 1917) the United States. Defeated and partly occupied, Germany was forced to pay war reparations by the Treaty of Versailles and was stripped of its colonies as well as of home territory to be ceded to Belgium, France, and Poland, and was banned from uniting with German-settled regions of Austria. The German Revolution of 1918–19 put an end to the federal constitutional monarchy, which resulted in the establishment of the Weimar Republic, an unstable parliamentary democracy. In the early 1930s, the worldwide Great Depression hit Germany hard, as unemployment soared and people lost confidence in the government. In January 1933, Adolf Hitler was appointed Chancellor of Germany. His Nazi Party quickly established a totalitarian regime, and Nazi Germany made increasingly aggressive territorial demands, threatening war if they were not met. Remilitarization of the Rhineland came in 1936, then annexation of Austria in the Anschluss and German-speaking regions of Czechoslovakia with the Munich Agreement in 1938, and further territory of Czechoslovakia in 1939. On 1 September 1939, Germany initiated World War II in Europe with the invasion of Poland. After forming a pact with the Soviet Union in 1939, Hitler and Stalin divided Eastern Europe. After a "Phoney War" in spring 1940, German forces swiftly conquered Denmark, Norway, Belgium, Luxembourg, the Netherlands, and France, and forced the British army out of Western Europe. In 1941, Hitler's army invaded Yugoslavia, Greece and the Soviet Union.
 
-		Racism, especially antisemitism, was a central feature of the Nazi regime. In Germany, but predominantly in the German-occupied areas, the systematic genocide program known as the Holocaust killed 17 million, including Jews, German dissidents, disabled people, Poles, Romanies, Soviets (Russian and non-Russian), and others. In 1942, the German invasion of the Soviet Union faltered, and after the United States entered the war, Britain became the base for massive Anglo-American bombings of German cities. Overy estimated in 2014 that in all about 353,000 civilians were killed by British and American strategic bombing of German cities, and nine million left homeless.[1] Following the Allied invasion of Normandy (June 1944), the German Army was pushed back on all fronts until the final collapse in May 1945. Under occupation by the Allies, German territories were split up, Austria was again made a separate country, denazification took place, and the Cold War resulted in the division of the country into democratic West Germany and communist East Germany, reduced in territory by the establishment of the Oder-Neisse line. Millions of ethnic Germans were deported from pre-war Eastern Germany, Sudetenland, and from all over Eastern Europe, in what is described as the largest scale of ethnic cleansing in history.[2] Germans also fled from Communist areas into West Germany, which experienced rapid economic expansion, and became the dominant economy in Western Europe. West Germany was rearmed in the 1950s under the auspices of NATO but without access to nuclear weapons. The Franco-German friendship became the basis for the political integration of Western Europe in the European Union.
+	<div class="row">
+		<div id="p-projects">
+			<h2>SECURITY VALUATOR [Personal Project]</h2>
+		    <p> <strong>Languages/packages used: </strong> Python, Django, Pandas, ScraPy </p>
+		    <p> <strong>GitHub: </strong>  <a href="https://github.com/sebkeil/SecurityValuator" target="_blank">https://github.com/sebkeil/SecurityValuator</a></p>
+		    <p> <strong>Why this project? </strong> With this project I aimed to apply my knowledge of Python to a create a tool that I could use myself when looking for stocks to invest in. The tool is based on a common financial evalution method called 'Discounted Cash Flow Method', which basically aims to find to the intrinsic value of a stock by analyzing and projecting Free Cash Flows and other relevant financial data. The website consists of several sub-tools. First, it includeswebscraper that fetches relevant data from YahooFinance (written in Scrapy) and displays it as pandas dataframes. Second, it has a web-based calculator for the Weighted Average Cost of Capital (WACC), which is a metric to the DCF methodology. Third, the DCF calculator applies a series of projections and calculations to arrive at the fair value of the given company. For those who are interested, the code roughly follows the method outlined in this<a href="https://www.youtube.com/watch?v=fd_emLLzJnk"> video.</a></p>
+		    <div id="image-col"> 
 
-		In 1989, the Berlin Wall was destroyed, the Soviet Union collapsed, and East Germany was reunited with West Germany in 1990. In 1998–1999, Germany was one of the founding countries of the eurozone. Germany remains one of the economic powerhouses of Europe, contributing about one-quarter of the eurozone's annual gross domestic product. In the early 2010s, Germany played a critical role in trying to resolve the escalating euro crisis, especially concerning Greece and other Southern European nations. In the middle of the decade, the country faced the European migrant crisis as the main receiver of asylum seekers from Syria and other troubled regions. </p>
+				<img src="https://user-images.githubusercontent.com/62847324/92221255-8103af80-ee9d-11ea-8371-3193caa8a8ab.JPG" width=500px height=350px class="illustrate-img"> 
+
+				<img src="https://user-images.githubusercontent.com/62847324/92309872-5ef75380-efa9-11ea-8731-18a4df48dee7.JPG" width=500px height=350px class="illustrate-img"> 
+
+				<img src="https://user-images.githubusercontent.com/62847324/92309975-1d1add00-efaa-11ea-8fcb-7de1674fadc3.JPG" width=500px height=350px class="illustrate-img"> 
+
+				<img src="https://user-images.githubusercontent.com/62847324/92310113-60c21680-efab-11ea-8bd0-d151ee5fef2f.JPG" width=500px height=350px class="illustrate-img"> 
+
+			</div>
+
+		    <p><strong>What are the next steps?</strong> I personally like to use this tool to assist me in analyzing stocks. The next step is to improve the usability of this tool by integrating the four steps into one (i.e. the user only has to fill in the stock ticker and his basic assumptions and receives a full analysis). To complement the output, graphs will be added. After this is achieved, a login-system needs to be implemented so that users may collect their analyzed securities in a personalized portfolio.</p>
+		</div>
+
+
+		<div id="u-projects">
+			<h2>SECURITY VALUATOR [Personal Project]</h2>
+		    <p> <strong>Languages/packages used: </strong> Python, Django, Pandas, ScraPy </p>
+		    <p> <strong>GitHub: </strong>  <a href="https://github.com/sebkeil/SecurityValuator" target="_blank">https://github.com/sebkeil/SecurityValuator</a></p>
+		    <p> <strong>Why this project? </strong> With this project I aimed to apply my knowledge of Python to a create a tool that I could use myself when looking for stocks to invest in. The tool is based on a common financial evalution method called 'Discounted Cash Flow Method', which basically aims to find to the intrinsic value of a stock by analyzing and projecting Free Cash Flows and other relevant financial data. The website consists of several sub-tools. First, it includeswebscraper that fetches relevant data from YahooFinance (written in Scrapy) and displays it as pandas dataframes. Second, it has a web-based calculator for the Weighted Average Cost of Capital (WACC), which is a metric to the DCF methodology. Third, the DCF calculator applies a series of projections and calculations to arrive at the fair value of the given company. For those who are interested, the code roughly follows the method outlined in this<a href="https://www.youtube.com/watch?v=fd_emLLzJnk"> video.</a></p>
+		    <div class="image-col"> 
+				<img src="https://user-images.githubusercontent.com/62847324/92221255-8103af80-ee9d-11ea-8371-3193caa8a8ab.JPG" width=500px height=350px class="illustrate-img"> 
+
+				<img src="https://user-images.githubusercontent.com/62847324/92309872-5ef75380-efa9-11ea-8731-18a4df48dee7.JPG" width=500px height=350px class="illustrate-img"> 
+
+				<img src="https://user-images.githubusercontent.com/62847324/92309975-1d1add00-efaa-11ea-8fcb-7de1674fadc3.JPG" width=500px height=350px class="illustrate-img"> 
+
+				<img src="https://user-images.githubusercontent.com/62847324/92310113-60c21680-efab-11ea-8bd0-d151ee5fef2f.JPG" width=500px height=350px class="illustrate-img"> 
+			</div>
+
+		</div>
+
+
+	</div>
 
 </body>
 
 
-<p id="contact"> Telephone: (0031) 6269 33 197 </p>
 
+
+<div class="footer" id="contact">
+  <h2>Contact</h2>
+  <hr>
+  <p> Telephone: XXX XXX XXX </p>
+</div>
 
 </html>
+
+
 
