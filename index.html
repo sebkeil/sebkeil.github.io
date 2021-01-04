@@ -106,30 +106,36 @@
 
 	<div id="about"> 
 
+		<!--
 		<div class="image-col"> 
 			<img src="https://user-images.githubusercontent.com/62847324/92383576-deeafe00-f10e-11ea-8ee2-462b22a4b078.png" alt="Profil Pic" width=200px height=350px class="profile-img"> 
 		</div>
 
+		-->
+
 		<div class="text-col">
 			<h2>About Me</h2>
-			<p> My name is Sebastian Keil and I am a student of Artificial Intelligence (MSc) and Finance and Technology (MSc)  at the VU Amsterdam. I have a particular interest in the intersections of AI and psychology, as well as AI and finance. I originally became interested in AI through my investigation of philosophical questions, for instance on the nature of consciousness and intelligence. Later I moved on to dive deeper into programming and the mathematical/algorithmic structures underpinning key AI techniques. I realized that my passion lies in this field and decided to pursue it as my career. </p>
+			<p> My name is Sebastian Keil and I am a student of Artificial Intelligence (MSc) and Finance and Technology (MSc)  at the VU Amsterdam. My goal in studying these subjects is to combine and synthesize insights from both worlds and become a driving force in implementing technological innovation in the financial industry. This page presents examples of personal and university projects I have worked on over the past 1-2 years. I continuously work on different types of projects that enable me to use what I have learned in a practical context. Next to the intersection of AI and Finance, I am interested in Machine Learning (with a strong focus on Deep Learning) and Computer Vision. I also have a passion for learning languages, as I speak English, German, Dutch and some Mandarin. </p>
 
-			<p><strong>My goals.</strong> I have always dreamed about making the world a better place, and I believe that AI technology has the potential to elevate the life quality for peple from all around the world. For instance, AI in education could empower those who do not have access to higher education by providing them access to teaching and mentoring through a virtual classroom environment. AI could also enable us to partly recreate the great minds of history and consult them for their advise. In psychotherapie, AI could give patients access to a personal consultation with a simulation of Carl Jung or Carl Rogers. In finance, AI could greatly democratize the financial institutions that to most people seem to operate in the shade. I realize that a lot of hard work is required to turn these ideas into reality. However, taking it one step at a time, I believe that things can be achieved that lie even beyond the imagination. To this end, I value diligance and persistence, hoping that I may take part in the making of a brighter tomorrow. </p>
-
-			<p><strong>Hobbies.</strong> Next to a lot of coding and studying, I also invest some time into learning languages and doing sports. Next to German, English and Dutch, I speak and write some Mandarin. To let some steam off from all the studying, I like to do kickboxing and MMA. As I currently live next to the beach in Scheveningen, I also like to take every chance I get to paddle out for a surf. </p>
-			
 		</div>
 
 	</div>
 
 	<div class="row">
 		<div id="p-projects">
+
+			<h2>FRACTAL TRADING GROUP [Personal Group Project]</h2>
+		    <p> <strong>Languages/packages used: </strong> Python, Interactive Brokers API, Pandas, NumPy, ScraPy,  </p>
+		    <p> I am currently working on an algorithmic trading system in collaboration with some partners. Our aim is to combine techniques and insights from machine learning, time-series analysis and fractal geometry to establish an automated trading system that engages a range of securities. We are currently in the phase of optimizing and discussing strategies, as well as conducting backtests. More updates on this soon... </p>
+
+		    <hr>
+
+
 			<h2>SECURITY VALUATOR [Personal Project]</h2>
 		    <p> <strong>Languages/packages used: </strong> Python, Django, Pandas, ScraPy </p>
 		    <p> <strong>GitHub: </strong>  <a href="https://github.com/sebkeil/SecurityValuator" target="_blank">https://github.com/sebkeil/SecurityValuator</a></p>
 		    <p> <strong>Why this project? </strong> With this project I aimed to apply my knowledge of Python to a create a tool that I could use myself when looking for stocks to invest in. The tool is based on a common financial evalution method called 'Discounted Cash Flow Method', which basically aims to find to the intrinsic value of a stock by analyzing and projecting Free Cash Flows and other relevant financial data. The website consists of several sub-tools. First, it includeswebscraper that fetches relevant data from YahooFinance (written in Scrapy) and displays it as pandas dataframes. Second, it has a web-based calculator for the Weighted Average Cost of Capital (WACC), which is a metric to the DCF methodology. Third, the DCF calculator applies a series of projections and calculations to arrive at the fair value of the given company. For those who are interested, the code roughly follows the method outlined in this<a href="https://www.youtube.com/watch?v=fd_emLLzJnk"> video.</a></p>
-		    <p> The images below show some impressions on what the website has to offer. Please note that it is currently not running live on a server. </p>
-			<div id="image-col"> 
+		    <div id="image-col"> 
 
 				<img src="https://user-images.githubusercontent.com/62847324/92221255-8103af80-ee9d-11ea-8371-3193caa8a8ab.JPG" width=500px height=350px class="illustrate-img"> 
 
@@ -141,18 +147,58 @@
 
 			</div>
 
-		    <p><strong>What are the next steps?</strong> I personally like to use this tool to assist me in analyzing stocks. The next step is to improve the usability of this tool by integrating the four steps into one (i.e. the user only has to fill in the stock ticker and his basic assumptions and receives a full analysis). To complement the output, graphs will be added. After this is achieved, a login-system needs to be implemented so that users may collect their analyzed securities in a personalized portfolio.</p>
+			<hr>
+
+			<h2>DATACAMP PROJECTS [Personal  Project]</h2>
+
+			<p> Datacamp is a popular learning website that offers tutorials on Data Science and its application in Python and R. Over the past year, I have gone through many of these tutorials to expand and revise my Data Science skills. I have also finished the following personal projects offered by Datacamp: <br><br> (1) ASL Recognition with Deep Learning <br><br> (2) Dr. Semmelweis and the Discovery of Handwashing <br><br> (3) Exploring 67 years of LEGO <br><br> (4) Exploring the Bitcoin Cryptocurrency Market <br><br> (5) Predicting Credit Card Approvals. </p>
+
+
 		</div>
 
 
 		<div id="u-projects">
+
+			<h2>DEEP LEARNING PROJECTS [University Individual Projects]</h2>
+			<p> <strong>Languages/packages used: </strong> Python, PyTorch, NumPy, Matplotlib </p>
+			<p> During the course 'Deep Learning' at the VU Amsterdam, we had to complete a challenging assignment each week that is worth mentioning here. The assignments, in conjunction with the lecture part of the course, gave me a deep intuition into the workings of neural networks and equipped me with the skills to apply those practice. These were some of the topics that were covered in the assignments:<br><br>
+
+			<strong> Week 1: </strong> Implement two neural networks (MLPs) from scratch, one using pure python and using NumPy. We had to compute relevant derivatives by hand and the main challenge laid in applying tensor operations and backpropagation using simple looping structures. After implementation, the MLPs had to be trained and tested in a experimental context, using synthetic data as well as the MNIST dataset. <br><br>
+
+			<strong> Week 2:</strong>  Implement an autodiff engine, inspect an advanced autodiff engine and get familiar with PyTorch. We had to automate the process of computing derivatives and backpropagation, as well as understand the computation graph of neural networks. This provided deep insights on the underlying working of popular deep learning libraries like PyTorch. <br><br>
+
+			<strong> Week 3:</strong>  Implement Convolutional Neural Netoworks (CNNs) in PyTorch. We had work with a variety of CNN architectures and inspect their performance in an experimental setting, using tasks related to image classification. <br><br>
+
+			<strong> Week 4:</strong>  Implement Recurrent Neural Networks (RNNs) in PyTorch. We experimented with a number of different models, including Elman RNNs and LSTMs, which were applied to solve sequential tasks (e.g. sentiment analysis). <br><br>
+
+			<strong> Week 5:</strong> Implement Variational Autoencoder (VAE) and Generative Adverserial Network (GAN) in PyTorch. We learned on and reconstructed the MNIST dataset, and the experimented with changing the latent space (for VAE) and employ different convolutional architectures (for GAN).  <br> </p>	
+
+			<hr>
+
+			<h2>COMPUTER VISION PROJECTS [University Group Projects]</h2>
+			<p> <strong>Languages/packages used: </strong> Python, Open CV, NumPy, Matplotlib </p>
+			<p> <strong>GitHub: </strong>  <a href="https://github.com/sebkeil/ComputerVision-Group" target="_blank" style="color:yellow;">https://github.com/sebkeil/ComputerVision-Group</a></p>
+			<p> As I took the course 'Computer Vision 1' at the University of Amsterdam (UvA), we had to complete a complex programming assignment each week, teaching us how to apply a variety of CV algorithms in Python, using libraries like NumPy and OpenCV. Here is a quick overview of what each of these assignments related to: <br><br>
+
+			<strong> Lab 1: </strong> Photometric Stereo & Colour. We had to implement the photometric stereo algorithm, calculate Albedo and Suface Normals and reconstruct images on a 3D surface. There were also tasks related to colour spaces, intrinsic image decomposition and colour constancy. <br><br>
+
+			<strong> Lab 2:</strong> Neighbor Processing & Filters. We implemented low-level filters like Gaussian and Gabor filters. Applied denoising algorithms, for instance using neighborhood processing. Also implemented first- and second-order filters for edge detection and foreground-background seperation. <br><br>
+
+			<strong> Lab 3:</strong> Harris Corner Detector & Optical Flow. We implemented the Harris Corner detection algorithm, which detects points of interest in an image. Then, we implemented the Lucas-Kanade optical flow algorithm, allowing us to track how the HCs change over sequences of images. Finally, we implemented the feature tracking algorithm. <br><br>
+
+			<strong> Lab 4:</strong>  Image Alignment and Stitching. We combined the insights of previous assignments and used RANSAC to estimate the best transformation between images. We then stitched two images together, using the aforementioned algorithms. <br><br>
+
+			<strong> Lab 5:</strong> Part 1: Image Classification using Bag-of-words. We used SIFT descriptors to build a visual vocabulary, which we then utilized in an image classification schema on CIFAR-10. Part 2: CNNs for Image Classification. Similar task to Part 1, but now we trained a Convolutional Neural Network to classify CIFAR-10 images. <br> </p>	
+
+			<hr>
+
 			<h2>ESTIMATING AIRBNB PRICES IN AMSTERDAM [University Group Project]</h2>
 		    <p> <strong>Languages/packages used: </strong> Python, ScikitLearn, Pandas, TensorFlow </p>
 		    <p> <strong>GitHub: </strong>  <a href="https://github.com/sebkeil/Group20-VU/tree/master/amsterdam-airbnb" target="_blank" style="color:yellow;">https://github.com/sebkeil/Group20-VU/tree/master/amsterdam-airbnb</a></p>
 		    <p> <strong>Report: </strong> Click <a href="https://github.com/sebkeil/Group20-VU/blob/master/Estimating%20AirBnb%20Prices%20in%20Amsterdam.pdf" target="_blank" style="color:yellow;"> HERE </a></p>
 		    <p> <strong>About this project. </strong> In this machine learning project we experimented with a variety of different ML algorithms in the attempt to accurately predict AirBnb prices in Amsterdam. We also used a variety of methods to optimize hyperparameters, namely Grid Search CV, Randomized CV and Evolutionary Search. The main result of this investigation was that ensemble methods like Gradient Boosting Regressor, Extra Trees Regressor and Random Forest Regressor outperformed other ML methods. </p>
 		    <p> <strong>My role in this project. </strong> As I was eager to learn how to implement key ML methods in practice, I took the initiative in doing the programming for this project. This strongly improved my ability to do data science with Python and libraries like ScikitLearn, pandas, TensorFlow and TPOT. I also helped my collegues to do research by engaging the existing literature on regression problems.</p>	
-		    <p> The images below show the the correlation plot and final results table. </p>
+
 		    <div class="image-col"> 
 				<img src="https://user-images.githubusercontent.com/62847324/92329529-3f733000-f068-11ea-9770-cf2c2208f1e6.JPG" width=500px height=350px class="illustrate-img"> 
 
@@ -166,9 +212,8 @@
 		    <p> <strong>Languages/packages used: </strong> Python, ScikitLearn, R </p>
 		    <p> <strong>Report (incl. Code): </strong> Click <a href="https://github.com/sebkeil/sebkeil.github.io/blob/master/Mastering%20the%20Game%20of%20Schnapsen%20with%20Ensemble%20Voting.pdf" target="_blank" style="color:yellow;"> HERE </a></p>
 		    <p> <strong>About this project. </strong> The task was to build an intelligent system that could succeed in the game of Schnapsen against a series of benchmark agents. Our team designed a number of bots and had them compete with the benchmark models. We observed that ML-based bots seemed to perform best, with our ensemble bot consistently outperforming all the other agents. </p>
-		    <p> <strong>My role in this project. </strong> I helped in the design of the bots and was in charge of conducting the statistical analysis, using the statistical package R. I also engaged with the existing academic literature on agent design. This project taught me a lot on how to approach the complex task of designing, engineering and testing intelligent agents.</p>
-			<p> The images below show the results from our investigation. The ensemble bot is represented on the top rows of the tables. </p>
-		
+		    <p> <strong>My role in this project. </strong> I helped in the design of the bots and was in charge of conducting the statistical analysis, using the statistical package R. I also engaged with the existing academic literature on agent design. This project taught me a lot on how to approach the complex task of designing, engineering and testing intelligent agents.</p>	
+
 		    <div class="image-col"> 
 				<img src="https://user-images.githubusercontent.com/62847324/92329983-cece1280-f06b-11ea-944f-2d21a9ba7d55.JPG" width=500px height=350px class="illustrate-img"> 
 
@@ -190,5 +235,4 @@
 </div>
 
 </html>
-
 
